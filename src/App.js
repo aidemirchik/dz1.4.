@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Qwe from './assests/Rectangle 24.jpg'
+import Qaz from './assests/Rectangle 25.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h2>50+ Beautiful rooms inspiration</h2>
+      <h5>Our designer already made a lot of beautiful prototipe of rooms that inspire you</h5>
+      <button className='btn'><p className='text'>Explore More</p></button>
+      <img src={Qwe} alt="" className='qwe'/>
+      <img src={Qaz} alt="" className='qwe' />
     </div>
   );
 }
